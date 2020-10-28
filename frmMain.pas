@@ -1,17 +1,17 @@
 unit Main;
 
 
-{          P U R C H A S E   O R D E R   L I N E   S E L E C T I O N
-          -----------------------------------------------------------
+{          J A U N T   M A I N   F O R M
+          -------------------------------
 
   Author:  DMA
   Date:    Aug, 2020
-  Purpose: Main form for Jaunt, and R IDE
+  Purpose: Main form for Jaunt, an R IDE
 
 
 Version Author      Date          Time      Comments
 --------------------------------------------------------------------------------
-  1      DMA      28-Aug-2020     15:53     Initial entry to archive
+
 }
 
 interface
@@ -199,7 +199,8 @@ procedure TfrmMain.HelpAbout(Sender: TObject);
 begin
     // todo  create a proper about box
 
-  MessageDlg('Jaunt (an R IDE) '+ #10#10 + '   By DMA.'+#10#10 + 'An exercise to learn GIT.', mtInformation, [mbok], 0);
+  MessageDlg('Jaunt (an R IDE) '+ #10#10 + '   By DMA.'+#10#10 +
+      'An exercise to learn GIT.', mtInformation, [mbok], 0);
 end;
 
 end.
